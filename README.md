@@ -1,1 +1,1 @@
-#Writing C programs using the Betty linter.
+# Writing C programs using the Betty linter.
