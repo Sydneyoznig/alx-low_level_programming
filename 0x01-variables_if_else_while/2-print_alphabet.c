@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int i;
+	char i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		putchar("abcdefghijklmnopqrstuvwxyz"[i]);
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
