@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * srand - Inbuilt function to generate random number
@@ -21,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-		prinf("is zero\n");
+		printf("is zero\n");
 	}
 	return (0);
 }
