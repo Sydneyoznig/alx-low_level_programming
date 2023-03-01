@@ -1,14 +1,15 @@
 #include <stdio.h>
 /**
  * print_sign - Prints + or - or zero
- * Return: 0 or 1 or -1
- * @n: Number for check
+ * Return: 1 great than zero, zero is zero
+ * -1 less than zero
+ * @n: Integer input
  */
 int print_sign(int n)
 {
 	if (n == 0)
 	{
-		putchar(48);
+		_putchar(48);
 		return (0);
 	}
 	else if (n > 0)
