@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * print_sign - Prints + or - or zero
  * Return: 1 great than zero, zero is zero
@@ -10,7 +10,6 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		putchar('+');
-		putchar('\n');
 		return (1);
 	}
 	else if (n < 0)
