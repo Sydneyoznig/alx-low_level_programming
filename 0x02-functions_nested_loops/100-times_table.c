@@ -22,12 +22,12 @@ void print_times_table(int n)
 					_putchar(' ');
 				if (result <= 9)
 					_putchar(' ');
-				if (result >= 100)
+				if (result > 100)
 				{
 					_putchar((result / 10) + '0');
 					_putchar((result % 10) + '0');
 				}
-				else if (result <= 99 && result >= 10)
+				else if (result <= 100 && result >= 10)
 				{
 					_putchar((result / 10) + '0');
 				}
