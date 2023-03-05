@@ -5,25 +5,23 @@
  */
 void times_table(void)
 {
-	int digit1, digit2, digit3, digit4;
-	for (digit1 = 0; digit1 <= 2; digit1++)
+	int num, mul, result;
+
+	for (num = 0; num <= 9; num++)
 	{
-		for (digit2 = 0; digit2 <= 9; digit2++)
+		_putchar('0');
+
+		for (mul = 1; mul <= 9; mul++)
 		{
-			for (digit3 = 0; digit3 <= 5; digit3++)
-			{
-				for (digit4 = 0; digit4 <= 9; digit4++)
-				{
-					if (digit1 >= 2 && digit2 >= 24)
-						break;
-					_putchar(digit1 + '0');
-					_putchar(digit2 + '0');
-					_putchar(':');
-					_putchar(digit3 + '0');
-					_putchar(digit4 + 48);
-					_putchar('\n');
-				}
-			}
+			_putchar(',');
+			_putchar(' ');
+			result = num * mul;
+			if (result <= 9)
+				_putchar(' ');
+			else
+				_putchar((result / 10) + '0');
+			_putchar((result % 10) + '0');
 		}
+		_putchar('\n');
 	}
 }
