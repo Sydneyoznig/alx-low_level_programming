@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
+ * Main - List natural numbers that are multiples of 3 or 5
  * Return: 0 (Success)
  */
 int main(void)
