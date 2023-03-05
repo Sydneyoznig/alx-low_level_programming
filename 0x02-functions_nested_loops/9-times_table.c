@@ -10,7 +10,7 @@ void times_table(void)
 	{
 		for (digit2 = 0; digit2 <= 9; digit2++)
 		{
-			for (digit3 = 0 digit3 <= 5; digit3++)
+			for (digit3 = 0; digit3 <= 5; digit3++)
 			{
 				for (digit4 = 0; digit4 <= 9; digit4++)
 				{
