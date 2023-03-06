@@ -11,7 +11,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		num3 = num1 + num2;
-		printf("%lu", n3);
+		printf("%lu", num3);
 		num1 = num2;
 		num2 = num3;
 		if (i == 49)
