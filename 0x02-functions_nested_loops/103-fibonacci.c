@@ -12,7 +12,7 @@ int main(void)
 		num3 = num1 + num2;
 		num1 = num2;
 		num2 = num3;
-		if ((n1 % 2) == 0)
+		if ((num1 % 2) == 0)
 			sum += num1;
 	}
 	printf("%ld\n", sum);
