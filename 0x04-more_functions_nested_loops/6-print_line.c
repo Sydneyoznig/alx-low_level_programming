@@ -2,7 +2,7 @@
 /**
  * print_line - prints a straight line
  * @n: parameter
- * Return: 0 Success
+ * Return: nothing
  */
 void print_line(int n)
 {
@@ -11,5 +11,4 @@ void print_line(int n)
 		_putchar('_');
 	}
 	_putchar('\n');
-	return (0);
 }
