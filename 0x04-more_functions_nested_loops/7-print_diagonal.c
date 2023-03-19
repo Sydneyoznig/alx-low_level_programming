@@ -16,10 +16,12 @@ void print_diagonal(int n)
 			{
 				_putchar(' ');
 				_putchar('\\');
-				if (len == (n - 10))
-					continue;
-				_putchar('\n');
 			}
+			if (len == (n - 10))
+			{
+				continue;
+			}
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
